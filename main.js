@@ -167,19 +167,19 @@ function desertStop(){
 const reviews = [
   {
     id: 1,
-    img: "/lifetea/img/profile-1.jpg",
+    img: "/img/profile-1.jpg",
     name: "Bryan Silva",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis."
   },
   {
     id: 2,
-    img: "/lifetea/img/profile-2.jpg",
+    img: "/img/profile-2.jpg",
     name: "Leonard Wyatt",
     text: "I was with my friends in this restaurant, the restaurant is very good with great food.We tried the fish under the bakery. We recommend everyone and we come back next time!!"
   },
   {
     id: 3,
-    img: "/lifetea/img/profile-3.jpg",
+    img: "/img/profile-3.jpg",
     name: "Rose Mccarthy",
     text: "That was amazing meal, the most beautiful place for dinning and enjoying, lovely and kind people... We tried fish from grill with homemade potatos and vegetables. We recommend this place to everyone."
   },

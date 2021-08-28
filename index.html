@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title</title>
+
+    <link rel="stylesheet" href="main.css" />
+
+    <script
+      src="https://kit.fontawesome.com/b160ac93e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1 class="logo">Life tea</h1>
+        <ul class="nav-ul" id="nav-ul">
+          <li class="link"><a href="#Home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#offer">Menu</a></li>
+          <li class="link"><a href="#gallery">Gallery</a></li>
+          <li class="link"><a href="#reservation">Reservation</a></li>
+          <li class="link"><a href="#footer">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="intro" id="Home">
+      <div class="container">
+        <h1 id="intro-logo">Life Tea</h1>
+        <p id="intro-text">
+          Nothing better than charming place and cup of coffe.
+        </p>
+        <a href="#" class="reservation">Make Reservation</a>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="containter">
+        <div class="about-restaurant">
+          <i class="fas fa-mug-hot"></i>
+          <h1 class="abouth1 slide-in from-left">Few words about us</h1>
+          <div class="space-line"></div>
+          <p class=" slide-in from-right">
+            You are welcome for breakfast, lunch or dinner in our cosy
+            restaurant. Our menu has a variety of delicious dishes. During the
+            summer you can enjoy the sun on our terrace.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="offer" id="offer">
+      <div
+        class="drinks" onmouseover="drinkStart()" onmouseout="drinkStop()">
+        <img src="/img/drink1.jpg" id="drinks-img" alt="drinks" />
+        <div class="drinks-about">
+          <i class="fas fa-wine-glass-alt"></i>
+          <h1>Drinks</h1>
+          <a href="#" class="menu">Menu</a>
+        </div>
+      </div>
+
+      <div class="food" onmouseover="foodStart()" onmouseout="foodStop()">
+        <img src="/img/food1.jpg" id="food-img"  alt="food"/>
+        <div class="food-about">
+          <i class="fas fa-pizza-slice"></i>
+          <h1>Food</h1>
+          <a href="#" class="menu">Menu</a>
+        </div>
+      </div>
+
+      <div class="desert" onmouseover="desertStart()" onmouseout="desertStop()">
+        <img src="/img/desert1.jpg" id="desert-img" alt="desert" />
+        <div class="desert-about">
+          <i class="fas fa-ice-cream"></i>
+          <h1>Desert</h1>
+          <a href="#" class="menu">Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef">
+      <div class="chef-about">
+        <p class="chef-name">Gennaro</p>
+        <h1 class="chef1 slide-in from-left">Head Chef</h1>
+        <img src="/img/chef.jpg" class="chef-img slide-in from-right" alt="chef"/>
+        <p class="chef-about1">
+          Born in Minori on the Amalfi Coast, Gennaro’s quintessentially Italian
+          spirit and positive nature has made him a TV favourite. He regularly
+          appears on Saturday Kitchen as well as his own TV show, the highly
+          successful Two Greedy Italians, BBC2.
+        </p>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="normal11 images">
+        <img
+          src="/img/gallery1.jpg"
+          alt="Gallery1"
+          class="normal1"
+          data-original="gallery1.jpg"
+        />
+      </div>
+      <div class="normal-about">
+        <p class="moments">Some moments</p>
+        <h1>From Inside</h1>
+        <a href="#">All Photos</a>
+      </div>
+      <div class="big11 images">
+        <img
+          src="/img/gallery6.jpg"
+          alt="Gallery6"
+          class="big1"
+          data-original="gallery6.jpg"
+        />
+      </div>
+      <div class="normal21 images">
+        <img
+          src="/img/gallery5.jpg"
+          alt="Gallery5"
+          class="normal2"
+          data-original="gallery5.jpg"
+        />
+      </div>
+      <div class="big21 images">
+        <img
+          src="/img/gallery3.jpg"
+          alt="Gallery3"
+          class="big2"
+          data-original="gallery3.jpg"
+        />
+      </div>
+      <div class="normal31 images">
+        <img
+          src="/img/gallery4.jpg"
+          alt="Gallery4"
+          class="normal3"
+          data-original="gallery4.jpg"
+        />
+      </div>
+      <div class="normal41 images">
+        <img
+          src="/img/gallery2.jpg"
+          alt="Gallery2"
+          class="normal4"
+          data-original="gallery2.jpg"
+        />
+      </div>
+      <div class="modal">
+        <img src="" alt="" class="full-img" />
+      </div>
+    </section>
+
+    <section class="opinions">
+      <div class="opinions-intro">
+        <p class="chef-name">Warm words</p>
+        <h1>From our clients</h1>
+      </div>
+          <div class="client-opinions">
+            <div class="opinion">
+              <img src="/img/profile-1.jpg" alt="opinion" class="person-img" />
+              <h3 class="name">Bryan Silva</h3>
+              <p class="review">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in
+                nibh mauris cursus mattis molestie a iaculis.
+              </p>
+            </div>
+            <div class="button-container">
+              <span class="dot one active"></span>
+              <span class="dot two"></span>
+              <span class="dot three"></span>
+            </div>
+          </div>
+    </section>
+
+    <section class="special" id="reservation">
+      <div class="regular">
+        <img src="/img/regular.jpg" id="desert-img" alt="regular"/>
+        <div class="regular-about">
+          <i class="fas fa-utensils"></i>
+          <h1>Regular Offer</h1>
+          <a href="#" class="menu">More</a>
+        </div>
+      </div>
+
+      <div class="special1">
+        <img src="/img/special.jpg" id="desert-img" alt="special" />
+        <div class="special-about">
+          <i class="fas fa-gift"></i>
+          <h1>Special Offer</h1>
+          <a href="#" class="menu">More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer">
+        <div class="mail">
+          <i class="fas fa-envelope"></i>
+          <p>CONNECT</p>
+          <h1>SUBSCRIBE TO NEWSLETTER</h1>
+          <input
+            type="text"
+            id="email"
+            name="mail"
+            placeholder="PLEASE ENTER YOUR EMAIL"
+          />
+        </div>
+        <div class="adress">
+          <h1>Life Tea</h1>
+          <p>BAR, BISTRO & RESTAURANT</p>
+          <p>	1728 Poe Road - Charleston - PHONE 843-642-5380</p>
+        </div>
+        <div class="socials">
+          <a href="tw"><i class="fab fa-twitter"></i></a>
+          <a href="fb"><i class="fab fa-facebook"></i></a>
+          <a href="ig"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
